@@ -89,3 +89,7 @@ Confusion matrix has also been constructed.
  <img  src="https://github.com/user-attachments/assets/4dbc2e18-2d3d-4a34-b5e9-d54774fd390c" alt="qr"/>
 </div>
 
+
+## Classification bigger dataset
+
+The same steps as in the “classification” section, but on a larger dataset with an unbalanced target variable.
