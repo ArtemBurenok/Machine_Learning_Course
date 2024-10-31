@@ -70,9 +70,18 @@ Unsignificant features were removed and the remaining data were normalized.
 
 Various machine learning algorithms were then applied to this data. Cross-validation and grid search were used during training. The metrics accuracy, precision, recall, f1 and roc-auc were used to evaluate the quality of predictions. 
 
-<div align="center">
- <img  src="https://github.com/user-attachments/assets/fdfe03bf-4821-4971-993f-28253f346b0b" alt="qr"/>
-</div>
+|              |Log Reg|	SVM|	KNN|	Naive Bayes|	Decision Tree|	KNN_realization|
+|--------------|----|-------|-------|-------|-------|-------|
+|train_accuracy|0.85|	0.94|	0.95|	0.84|	0.97|	0.91|
+|test_accuracy	|0.82|	0.82|	0.86|	0.81|	0.86|	0.82|
+|train_recall	|0.91|	0.96|	0.97|	0.87|	0.98|	0.92|
+|test_recall	|0.85|	0.82|	0.83|	0.87|	0.86|	0.86|
+|train_precision|0.83|	0.93|	0.95|	0.84|	0.96|	0.91|
+|test_precision	|0.79|	0.82|	0.88|	0.77|	0.86|	0.79|
+|train_f1	|0.87|	0.94|	0.96|	0.85|	0.97|	0.92|
+|test_f1	|0.82|	0.82|	0.86|	0.82|	0.86|	0.82|
+|train_roc_auc	|0.92|	0.96|	0.95|	0.91|	0.97|	0.91|
+test_roc_auc	|0.91|	0.91|	0.86|	0.89|	0.86|	0.82|
 
 Confusion matrix has also been constructed.
 
