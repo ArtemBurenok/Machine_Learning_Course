@@ -4,11 +4,11 @@ This repository stores implementations of various methods for data analysis, nam
 
 ## Regression
 
-First, the gradient descent algorithm was implemented. At the end stochastic gradient descent and mini batch gradient descent were implemented. 
+First, the gradient descent algorithm was implemented. At the end stochastic gradient descent and mini batch gradient descent were implemented. And tested on the generated data.
 
 ![image](https://github.com/user-attachments/assets/3bd1acff-072a-44a1-a8e4-ae3ff3049664)
 
-After that the EDA was made. Namely, histograms, boxplot, scatter plot, correlation matrix, barplot were plotted. At the end of the EDA, appropriate conclusions were drawn.
+After that, a dataset was taken in which the target variable is the price of the car. And EDA was made on it. Namely, histograms, boxplot, scatter plot, correlation matrix, barplot were plotted. At the end of the EDA, appropriate conclusions were drawn.
 
 ![image](https://github.com/user-attachments/assets/7e8009fc-9ed6-4ea3-b6c4-db77599a669c)
 
