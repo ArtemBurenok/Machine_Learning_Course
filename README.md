@@ -48,3 +48,35 @@ Several models were trained on the preprocessed data using cross-validation: rid
 | r2-test   |0.74              |0.74	       |0.67	    |0.67	 |0.67           |
 
 
+## Classification
+
+In this notebook, heart attack data will be analyzed. The target variable is the probability of having a heart attack.
+
+First, logistic regression was implemented. After the implementation was applied to the data. The metric to test the algorithm is accuracy.
+
+After the initial analysis and EDA was performed. For example, pairplot:
+
+<div align="center">
+ <img  src="https://github.com/user-attachments/assets/2d8b2db4-1312-4ccd-b93c-a4c721bd76c1" alt="qr"/>
+</div>
+
+and correlation matrix:
+
+<div align="center">
+ <img  src="https://github.com/user-attachments/assets/d3cb6abe-30f2-4ead-b57b-cf015555fffe" alt="qr"/>
+</div>
+
+Unsignificant features were removed and the remaining data were normalized.
+
+Various machine learning algorithms were then applied to this data. Cross-validation and grid search were used during training. The metrics accuracy, precision, recall, f1 and roc-auc were used to evaluate the quality of predictions. 
+
+<div align="center">
+ <img  src="https://github.com/user-attachments/assets/fdfe03bf-4821-4971-993f-28253f346b0b" alt="qr"/>
+</div>
+
+Confusion matrix has also been constructed.
+
+<div align="center">
+ <img  src="https://github.com/user-attachments/assets/4dbc2e18-2d3d-4a34-b5e9-d54774fd390c" alt="qr"/>
+</div>
+
