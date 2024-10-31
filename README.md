@@ -92,4 +92,9 @@ Confusion matrix has also been constructed.
 
 ## Classification bigger dataset
 
-The same steps as in the “classification” section, but on a larger dataset with an unbalanced target variable.
+The same steps as in the “classification” section, but on a larger dataset with an unbalanced target variable (credit scoring).
+
+
+## Multiclass Classification
+
+## Multioutput Classification and Regression
