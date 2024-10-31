@@ -1,4 +1,4 @@
-# Machine Learning Course
+# Machine Learning University
 
 This repository stores implementations of various methods for data analysis, namely classification methods, regression. In addition, I analyzed datasets with several target variables. The data file contains the data on which the analysis was performed. 
 
