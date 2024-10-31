@@ -4,7 +4,7 @@ This repository stores implementations of various methods for data analysis, nam
 
 ## Regression
 
-At the beginning, a gradient descent algorithm was implemented. And tested on the generated data.
+First, the gradient descent algorithm was implemented. At the end stochastic gradient descent and mini batch gradient descent were implemented. 
 
 ![image](https://github.com/user-attachments/assets/3bd1acff-072a-44a1-a8e4-ae3ff3049664)
 
@@ -28,3 +28,19 @@ From the beginning, a linear regression was trained. For clarity, a table was cr
 | rmse-test |2027.44         |5536.23	       |3863.06	    |2534.85	   |5088.92	    |3810.10	   |1372.72     |
 | r2-train  |0.85	           |0.80	         |0.88	      |0.83	       |0.84	      |0.84	       |0.03        |
 | r2-test   |0.93	           |0.78	         |0.70	      |0.64	       |0.63	      |0.74        |0.11        |
+
+
+Before training the models, the best number (and subset) of features is selected using Recursive Feature Elimination (RFE) from sklearn.
+
+Several models were trained on the preprocessed data using cross-validation: ridge, linear regression, gradient descent implementations, SGD, mini-batch GD.
+
+|           | LinearRegression | Ridge         | GD         | SGD        | Mini Batch GD |
+| --------- | ---------------- | ------------- | ---------- | ---------- | ------------- |
+| mse-train |9398425.16	       |9400253.57     |15467407.87 |15710189.60 |15479804.84    |
+| mse-test  |16401251.07       |16363658.37    |22827048.63 |22938890.30 |22710667.56    |
+| rmse-train|3021.13	       |3021.30	       |3932.86	    |3963.61	 |3934.44        |
+| rmse-test |3810.10	       |3806.53	       |4777.77	    |4789.46	 |4765.57        |
+| r2-train  |0.84              |0.84	       |0.75	    |0.74	 |0.75           |
+| r2-test   |0.74              |0.74	       |0.67	    |0.67	 |0.67           |
+
+
