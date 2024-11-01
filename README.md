@@ -97,4 +97,8 @@ The same steps as in the “classification” section, but on a larger dataset w
 
 ## Multiclass Classification
 
+This paper analyzes a dataset dedicated to credit scoring. The target variable is a multiclass variable. Therefore, the problem was solved using OneVsRest, OneVsOne and OutputCode strategies.
+
 ## Multioutput Classification and Regression
+
+This work is interesting because the target variable is a vector. The problem was first solved in a regression framework, then the solution was reduced to classification. In addition, a simple neural network was written to solve the regression problem.
